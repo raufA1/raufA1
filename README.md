@@ -1,6 +1,3 @@
-cat > README.md <<'MD'
-<!-- Profile README for raufA1 -->
-
 <h1 align="center">Hi, I'm Rauf 👋</h1>
 <p align="center">
   Builder of developer tools & LLM infra. I like clean CLIs, self-healing services, and local→cloud fallbacks.
