@@ -1,100 +1,107 @@
-<!-- Yenidən dizayn edilmiş README | Rauf Əhmədov (raufA1) -->
+# Hi, I'm Rauf 👋
 
-<!-- Giriş Banneri -->
+**Developer who builds with AI** | Creating practical AI-powered tools and automation workflows
 
-<p align="center">
-<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/raufA1/raufA1/main/header.png" alt="Rauf Əhmədov - AI Alətləri və İnfrastruktur Tərtibatçısı">
-</p>
+[![GitHub followers](https://img.shields.io/github/followers/raufA1?style=flat&label=Followers&color=blue)](https://github.com/raufA1?tab=followers)
+[![Profile views](https://komarev.com/ghpvc/?username=raufA1&style=flat&color=blue)](https://github.com/raufA1)
+[![Smart CLI](https://img.shields.io/badge/Featured-Smart%20CLI-0066CC?logo=github)](https://github.com/raufA1/smart-cli)
+
+---
+
+## 🚀 What I Do
+
+I love building tools that make development easier, and I use AI extensively in my workflow. Most of my projects involve integrating AI into practical development tools - from CLI interfaces to automation scripts.
+
+### My Approach
+- **AI-First Development** - I use AI tools for coding, planning, and problem-solving
+- **Practical Tools** - Focus on solving real problems I encounter in my own work
+- **Learning in Public** - Sharing what I build and learn along the way
+- **Automation** - If I do it more than twice, I try to automate it
+
+---
+
+## 🛠️ Technology Stack
+
+**Core Languages & Frameworks**
+```
+Python • Bash • FastAPI • Typer • Rich • SQLAlchemy
+```
+
+**Infrastructure & DevOps**
+```
+Docker • GitHub Actions • systemd • Redis • Linux
+```
+
+**AI & Integration**
+```
+LiteLLM • OpenRouter • Anthropic Claude • OpenAI APIs
+```
+
+**Development Tools**
+```
+uv (Astral) • PyPI • Security Scanning • Automated Testing
+```
+
+---
+
+## 📦 Featured Projects
+
+### 🎯 [Smart CLI](https://github.com/raufA1/smart-cli) - AI-Powered CLI Tool
+[![Build Status](https://img.shields.io/github/actions/workflow/status/raufA1/smart-cli/ci.yml?branch=main)](https://github.com/raufA1/smart-cli/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A CLI tool that integrates AI into development workflows. Built this to make my own development process smoother, with help from AI at every step.
+
+**What it does:**
+- 🤖 **AI Integration** - Connect to various AI models for development tasks
+- 🔧 **Developer Tools** - Practical utilities for everyday coding
+- 📦 **Easy Setup** - Docker support and straightforward installation
+- 🛠️ **Extensible** - Built to be modified and extended
+
+**Built with:** `Python` `Typer` `Rich` `FastAPI` `Docker` (and lots of AI assistance!)
+
+---
+
+### 🔧 [LLM Family Pack v3](https://github.com/raufA1/llm-family-pack) - Local AI Setup
+
+My solution for running AI models locally. Created this because I wanted more control over my AI workflow and got tired of API limits.
+
+**What it includes:**
+- 🏠 **Local Setup** - Run AI models on your own machine
+- 🔄 **Maintenance Tools** - Scripts to keep everything running smoothly
+- 🎭 **Simple Aliases** - Easy shortcuts for different models
+- ⚡ **Quick Start** - Get up and running without hassle
+
+**Built with:** `Python` `LiteLLM` `Bash` `systemd`
+
+---
+
+## 📈 GitHub Analytics
 
 <div align="center">
-
-Builder of AI-powered developer tools & enterprise infrastructure. <br />
-Creator of Smart CLI - a professional AI development platform with multi-agent workflows.
-
-<p align="center">
-<a href="https://github.com/raufA1?tab=followers"><img alt="GitHub followers" src="https://www.google.com/search?q=https://img.shields.io/github/followers/raufA1%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26labelColor%3D101010%26color%3D0077b5"></a>
-<a href="https://github.com/raufA1"><img alt="Profile views" src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3DraufA1%26style%3Dfor-the-badge%26logo%3Dgithub%26labelColor%3D101010%26color%3D4c1"></a>
-<a href="https://github.com/raufA1/smart-cli"><img alt="Smart CLI" src="https://www.google.com/search?q=https://img.shields.io/badge/Project-Smart%2520CLI-0066CC%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26labelColor%3D101010"></a>
-</p>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=raufA1&show_icons=true&theme=default&count_private=true&hide_title=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raufA1&layout=compact&theme=default&hide_title=true&langs_count=8" />
 </div>
 
-👨‍💻 Haqqımda
-Mən Rauf, avtomatlaşdırma mühəndisliyindən proqram tərtibatına keçid etmiş bir peşəkaram. Karyeram boyu mürəkkəb sistemləri optimallaşdırmışam və süni intellektin köməyi ilə ilk layihələrimi həyata keçirdikdən sonra bu sahəyə olan həvəsim daha da artdı. İndi isə əsas məqsədim tərtibatçılar üçün yüksək səviyyəli, süni intellektə əsaslanan alətlər və infrastruktur həlləri yaratmaqdır.
+---
 
-🚀 Əsas diqqətim Smart CLI üzərindədir – peşəkar komandalar üçün çox-agentli, təhlükəsiz və monitorinq imkanları olan AI platforması.
+## 🎯 My Workflow
 
-🔧 Açıq mənbəli alətlər və lokal AI infrastruktur həlləri hazırlayıram (LLM Family Pack kimi).
+- **AI-Assisted Everything** - From code to documentation, I use AI tools extensively
+- **Build What I Need** - Most projects start as solutions to my own problems
+- **Share & Learn** - Open source everything and learn from the community
+- **Iterate Fast** - Build, test, improve, repeat
 
-💡 İstehsalata hazır (production-ready) həllər qurmağa önəm verirəm: Docker, CI/CD, təhlükəsizlik skanları və avtomatlaşdırılmış testlər.
+---
 
-🛠️ Texnologiyalar və Alətlər
-İşlərimdə istifadə etdiyim əsas texnologiyalar və alətlər bunlardır:
+## 📫 Get In Touch
 
-Kateqoriya
+- 💼 **Email:** [alizadarauf1@gmail.com](mailto:alizadarauf1@gmail.com)
+- 🐛 **Issues:** Open an issue on my repos if you find bugs or have ideas
+- 💡 **Chat:** Always happy to discuss AI tools and development workflows
 
-Texnologiyalar
+---
 
-Dillər & Əsaslar
-
-Python Bash SQL
-
-Backend & API
-
-FastAPI Typer (CLI) Rich (CLI UI) SQLAlchemy
-
-Infrastruktur & DevOps
-
-Docker Linux (systemd) GitHub Actions Redis
-
-AI & LLM
-
-LiteLLM OpenRouter Anthropic API OpenAI API
-
-<p align="center">
-<img height="32" src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite">
-<img height="32" src="https://www.google.com/search?q=https://img.shields.io/badge/Bash-121011%3Fstyle%3Dfor-the-badge%26logo%3Dgnu-bash%26logoColor%3Dwhite">
-<img height="32" src="https://www.google.com/search?q=https://img.shields.io/badge/FastAPI-009688%3Fstyle%3Dfor-the-badge%26logo%3Dfastapi%26logoColor%3Dwhite">
-<img height="32" src="https://www.google.com/search?q=https://img.shields.io/badge/Docker-2496ED%3Fstyle%3Dfor-the-badge%26logo%3Ddocker%26logoColor%3Dwhite">
-<img height="32" src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
-<img height="32" src="https://www.google.com/search?q=https://img.shields.io/badge/Linux-000%3Fstyle%3Dfor-the-badge%26logo%3Dlinux%26logoColor%3Dwhite">
-<img height="32" src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub%2520Actions-2088FF%3Fstyle%3Dfor-the-badge%26logo%3Dgithub-actions%26logoColor%3Dwhite">
-</p>
-
-🏆 Seçilmiş Layihələr
-Burada ən çox fəxr etdiyim bəzi layihələrim var.
-
-Layihə
-
-Təsvir
-
-Texnologiyalar
-
-🚀 Smart CLI
-
-Peşəkar DevOps üçün çox-agentli arxitektura, təhlükəsizlik və monitorinq imkanları olan korporativ səviyyəli AI CLI platforması.
-
-Python Typer Rich FastAPI Docker GitHub Actions Redis
-
-🔧 LLM Family Pack
-
-Lokal LiteLLM proksi və CLI köməkçiləri. sonnet 4 maskalanması, özünü bərpa edən alətlər və ehtiyat nüsxə çıxarma kimi xüsusiyyətlərə malikdir.
-
-Python Bash systemd LiteLLM
-
-📊 GitHub Statistikası
-<p align="center">
-<img height="170" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DraufA1%26show_icons%3Dtrue%26count_private%3Dtrue%26theme%3Dtokyonight%26hide_border%3Dtrue%26border_radius%3D10" />
-<img height="170" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DraufA1%26layout%3Dcompact%26theme%3Dtokyonight%26hide_border%3Dtrue%26border_radius%3D10%26langs_count%3D8" />
-</p>
-<p align="center">
-<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3DraufA1%26theme%3Ddracula%26hide_border%3Dtrue%26border_radius%3D10%26date_format%3Dj%2520M%255B%2520Y%255D" />
-</p>
-
-📫 Əlaqə
-Mənimlə əlaqə saxlamaq və ya əməkdaşlıq etmək üçün:
-
-GitHub Issues: Repozitoriyalarımda bir məsələ (issue) açın.
-
-Email: alizadarauf1@gmail.com
-
-LinkedIn: linkedin.com/in/rauf-ahmadov
+<div align="center">
+  <i>Building useful tools with AI assistance, one project at a time.</i>
+</div>
