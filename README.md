@@ -1,6 +1,3 @@
-cat > README.md <<'MD'
-<!-- Profile README for raufA1 -->
-
 <h1 align="center">Hi, I'm Rauf 👋</h1>
 <p align="center">
   Builder of AI-powered developer tools & enterprise infrastructure. Creator of Smart CLI - professional AI development platform with multi-agent workflows.
