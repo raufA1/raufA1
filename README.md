@@ -1,3 +1,5 @@
+cat > README.md <<'MD'
+<!-- Profile README for raufA1 -->
 
 <h1 align="center">Hi, I'm Rauf 👋</h1>
 <p align="center">
@@ -38,7 +40,7 @@
 ### 📦 Featured Projects
 
 #### 🚀 Smart CLI - AI-Powered Development Platform
-[![Build Status](https://github.com/raufA1/smart-cli/workflows/CI/badge.svg)](https://github.com/raufA1/smart-cli/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/raufA1/smart-cli/ci.yml?branch=main&label=Build%20Status)](https://github.com/raufA1/smart-cli/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 - **Repo**: 👉 <a href="https://github.com/raufA1/smart-cli">raufA1/smart-cli</a>
