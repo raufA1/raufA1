@@ -24,41 +24,55 @@ I love building tools that make development easier, and I use AI extensively in 
 
 **Core Languages & Frameworks**
 ```
-Python • Bash • FastAPI • Typer • Rich • SQLAlchemy
+Python • Bash • FastAPI • Typer • Rich • SQLAlchemy • AsyncIO
 ```
 
 **Infrastructure & DevOps**
 ```
-Docker • GitHub Actions • systemd • Redis • Linux
+Docker • Docker Compose • GitHub Actions • systemd • Redis • PostgreSQL • Linux
 ```
 
 **AI & Integration**
 ```
-LiteLLM • OpenRouter • Anthropic Claude • OpenAI APIs
+LiteLLM • OpenRouter • Anthropic Claude • OpenAI APIs • Multi-Agent Systems
+```
+
+**Monitoring & Analytics**
+```
+Prometheus • Grafana • Codecov • Performance Metrics • Cost Tracking
 ```
 
 **Development Tools**
 ```
-uv (Astral) • PyPI • Security Scanning • Automated Testing
+uv (Astral) • PyPI • Security Scanning • Automated Testing • CI/CD Pipelines
 ```
 
 ---
 
 ## 📦 Featured Projects
 
-### 🎯 [Smart CLI](https://github.com/raufA1/smart-cli) - AI-Powered CLI Tool
+### 🎯 [Smart CLI](https://github.com/raufA1/smart-cli) - Enterprise AI-Powered CLI Platform
 [![Build Status](https://img.shields.io/github/actions/workflow/status/raufA1/smart-cli/ci.yml?branch=main)](https://github.com/raufA1/smart-cli/actions)
+[![Codecov](https://codecov.io/gh/raufA1/smart-cli/branch/main/graph/badge.svg?token=40fb1d9c-6465-443b-aa16-2d501c538b37)](https://codecov.io/gh/raufA1/smart-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
-A CLI tool that integrates AI into development workflows. Built this to make my own development process smoother, with help from AI at every step.
+An enterprise-grade AI-powered CLI platform with revolutionary Enhanced Mode System. Built to transform how developers work with AI - from simple code generation to complex multi-agent workflows.
 
-**What it does:**
-- 🤖 **AI Integration** - Connect to various AI models for development tasks
-- 🔧 **Developer Tools** - Practical utilities for everyday coding
-- 📦 **Easy Setup** - Docker support and straightforward installation
-- 🛠️ **Extensible** - Built to be modified and extended
+**🎭 Enhanced Mode System:**
+- **7 Specialized Modes** - Smart, Code, Analysis, Architect, Learning, Fast, Orchestrator
+- **Intelligent Context Management** - Isolated contexts with controlled data sharing
+- **Multi-Agent Orchestration** - 20+ specialized AI agents working together
+- **Professional Budget Management** - Cost control and optimization features
 
-**Built with:** `Python` `Typer` `Rich` `FastAPI` `Docker` (and lots of AI assistance!)
+**🚀 Key Features:**
+- 🤖 **Multi-LLM Support** - OpenRouter, Anthropic Claude, OpenAI integration
+- 🔧 **Developer Workflow Integration** - Git automation, CI/CD, Docker support
+- 📊 **Real-time Analytics** - Usage tracking, cost monitoring, performance metrics
+- 🛡️ **Enterprise Security** - SSO, RBAC, audit logging, compliance features
+- 📈 **Production Ready** - FastAPI server, Prometheus metrics, Grafana dashboards
+
+**Built with:** `Python` `FastAPI` `Typer` `Rich` `Docker` `Redis` `PostgreSQL` `Prometheus`
 
 ---
 
