@@ -1,4 +1,4 @@
-# 🤖 Rauf Alizade
+# 🤖 Rauf Alizada
 
 <div align="center">
 
