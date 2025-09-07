@@ -343,31 +343,6 @@ graph TD
 
 ---
 
-<details>
-<summary><strong>📱 Mobile-Optimized View</strong></summary>
-
-### Quick Links
-- 📧 [Email](mailto:alizadarauf1@gmail.com)
-- 📱 [Phone](tel:+994507100701) 
-- 💻 [GitHub](https://github.com/raufA1)
-- 📄 [CV](docs/CV-EN.md)
-
-### Key Projects
-- 🚀 [Smart CLI](https://github.com/raufA1/smart-cli) - AI Platform
-- 🎬 [Clipflow](https://github.com/raufA1/clipflow) - Video AI
-- 🧠 [LLM Pack](https://github.com/raufA1/llm-family-pack) - AI Management
-
-### Impact
-- 60%+ Workload Reduction
-- 3x Speed Increase  
-- 94%+ System Accuracy
-- 7 AI Modes Built
-- 20+ AI Agents Created
-
-</details>
-
----
-
 <div align="center">
 
 **Thank you for visiting my profile! 🚀**
