@@ -4,9 +4,9 @@
 
 <!-- Gecə/Gündüz Rejimi Dəstəyi -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/banner_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/images/banner_light.png">
-  <img alt="Rauf Alizade - AI-First Developer" src="./assets/images/banner_dark.png" width="100%" height="200">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/raufA1/raufA1/main/assets/images/banner_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/raufA1/raufA1/main/assets/images/banner_light.png">
+  <img alt="Rauf Alizade - AI-First Developer" src="https://raw.githubusercontent.com/raufA1/raufA1/main/assets/images/banner_dark.png" width="100%" height="200">
 </picture>
 
 <!-- Profile Badge-ləri -->
