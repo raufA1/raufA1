@@ -2,12 +2,17 @@
 
 <div align="center">
 
-<!-- Gecə/Gündüz Rejimi Dəstəyi -->
+<!-- AI-First Developer Banner -->
+<img alt="Rauf Alizade - AI-First Developer" src="https://raw.githubusercontent.com/raufA1/raufA1/main/assets/images/banner_dark.png" width="100%" height="200" style="max-width: 100%;">
+
+<!-- Dark/Light theme alternativ -->
+<!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/raufA1/raufA1/main/assets/images/banner_dark.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/raufA1/raufA1/main/assets/images/banner_light.png">
   <img alt="Rauf Alizade - AI-First Developer" src="https://raw.githubusercontent.com/raufA1/raufA1/main/assets/images/banner_dark.png" width="100%" height="200">
 </picture>
+-->
 
 <!-- Profile Badge-ləri -->
 [![GitHub followers](https://img.shields.io/github/followers/raufA1?style=for-the-badge&logo=github&color=9CA3AF&labelColor=1F2937)](https://github.com/raufA1?tab=followers)
