@@ -284,9 +284,34 @@ llm-local "run fine-tuned model"
 
 ## 🧠 AI-Native Development Process
 
-**💡 Ideation → 🏗️ Architecture → 💻 Development → 🧪 Testing → 🚀 Deploy → 📊 Monitor**
+**Complete AI-powered development lifecycle with intelligent automation.**
 
-> *Complete AI-powered development lifecycle with intelligent automation at every step*
+<div align="center">
+
+```mermaid
+%%{init: {
+  "theme":"dark",
+  "themeVariables":{"fontSize":"11px","lineColor":"#94a3b8"},
+  "flowchart":{"nodeSpacing":25,"rankSpacing":35}
+}}%%
+graph LR
+    A["💡 Ideation"] --> B["🏗️ Architecture"]
+    B --> C["💻 Development"] 
+    C --> D["🧪 Testing"]
+    D --> E["🚀 Deploy"]
+    E --> F["📊 Monitor"]
+    
+    style A fill:#1f2937,stroke:#9ca3af,color:#fff
+    style B fill:#1f2937,stroke:#9ca3af,color:#fff
+    style C fill:#1f2937,stroke:#9ca3af,color:#fff
+    style D fill:#1f2937,stroke:#9ca3af,color:#fff
+    style E fill:#1f2937,stroke:#9ca3af,color:#fff
+    style F fill:#1f2937,stroke:#9ca3af,color:#fff
+```
+
+<br/>
+
+</div>
 
 ---
 
