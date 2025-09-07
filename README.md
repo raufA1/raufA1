@@ -2,7 +2,11 @@
 
 <div align="center">
 
-![Social Preview](social_preview.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="social_preview_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="social_preview_light.png">
+  <img alt="Rauf Alizade - AI-First Developer" src="social_preview_dark.png" width="100%">
+</picture>
 
 [![GitHub followers](https://img.shields.io/github/followers/raufA1?style=for-the-badge&logo=github&color=3B82F6&labelColor=1F2937)](https://github.com/raufA1?tab=followers)
 [![Profile Views](https://komarev.com/ghpvc/?username=raufA1&style=for-the-badge&color=3B82F6&label=PROFILE+VIEWS)](https://github.com/raufA1)
