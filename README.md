@@ -345,13 +345,3 @@ graph TD
 *"Building the future of AI-assisted development, one commit at a time"* 🚀
 
 [![Snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)](https://github.com/raufA1)
-
----
-
-<div align="center">
-
-**Thank you for visiting my profile! 🚀**
-
-*Building the future with AI, one commit at a time.*
-
-</div>
