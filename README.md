@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- AI-First Developer Banner -->
-<img alt="Rauf Alizade - AI-First Developer" src="https://raw.githubusercontent.com/raufA1/raufA1/main/assets/images/social_preview_dark.png" width="100%" height="200" style="max-width: 100%;">
+<img alt="Rauf Alizade - AI-First Developer" src="https://raw.githubusercontent.com/raufA1/raufA1/main/assets/images/social_preview_dark.png" style="max-width: 100%;">
 
 <!-- Dark/Light theme alternativ -->
 <!--
