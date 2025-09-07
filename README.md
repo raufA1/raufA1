@@ -10,10 +10,10 @@
 </picture>
 
 <!-- Profile Badge-ləri -->
-[![GitHub followers](https://img.shields.io/github/followers/raufA1?style=for-the-badge&logo=github&color=6366F1&labelColor=1F2937)](https://github.com/raufA1?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=raufA1&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS)](https://github.com/raufA1)
-[![AI Powered](https://img.shields.io/badge/🤖_AI-POWERED-06B6D4?style=for-the-badge&labelColor=1F2937)](https://github.com/raufA1)
-[![Years Coding](https://img.shields.io/badge/Coding-3%2B_Years-F59E0B?style=for-the-badge&logo=calendar&labelColor=1F2937)](https://github.com/raufA1)
+[![GitHub followers](https://img.shields.io/github/followers/raufA1?style=for-the-badge&logo=github&color=4F46E5&labelColor=111827)](https://github.com/raufA1?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=raufA1&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS)](https://github.com/raufA1)
+[![AI Powered](https://img.shields.io/badge/🤖_AI-POWERED-0891B2?style=for-the-badge&labelColor=111827)](https://github.com/raufA1)
+[![Years Coding](https://img.shields.io/badge/Coding-3%2B_Years-D97706?style=for-the-badge&logo=calendar&labelColor=111827)](https://github.com/raufA1)
 
 <!-- Animasiyalı Yazı -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=AI-First+Developer;Building+Intelligent+Tools;Every+Line+AI-Assisted;Production+Ready+AI+Systems;Human+%2B+AI+%3D+Magic)](https://git.io/typing-svg)
@@ -72,33 +72,33 @@ interface AIFirstDeveloper {
 
 **📈 Performance Impact**
 
-[![Workload Reduction](https://img.shields.io/badge/Workload_Reduction-60%25-10B981?style=for-the-badge&logo=trending-down&logoColor=white)](https://github.com/raufA1)
+[![Workload Reduction](https://img.shields.io/badge/Workload_Reduction-60%25-059669?style=for-the-badge&logo=trending-down&logoColor=white)](https://github.com/raufA1)
 
-[![Speed Increase](https://img.shields.io/badge/Speed_Increase-3x-F59E0B?style=for-the-badge&logo=trending-up&logoColor=white)](https://github.com/raufA1)
+[![Speed Increase](https://img.shields.io/badge/Speed_Increase-3x-D97706?style=for-the-badge&logo=trending-up&logoColor=white)](https://github.com/raufA1)
 
-[![System Accuracy](https://img.shields.io/badge/System_Accuracy-94%25-8B5CF6?style=for-the-badge&logo=target&logoColor=white)](https://github.com/raufA1)
+[![System Accuracy](https://img.shields.io/badge/System_Accuracy-94%25-7C3AED?style=for-the-badge&logo=target&logoColor=white)](https://github.com/raufA1)
 
 </td>
 <td align="center" width="33%">
 
 **🤖 AI Systems Built**
 
-[![AI Modes](https://img.shields.io/badge/AI_Modes-7_Active-06B6D4?style=for-the-badge&logo=settings&logoColor=white)](https://github.com/raufA1)
+[![AI Modes](https://img.shields.io/badge/AI_Modes-7_Active-0891B2?style=for-the-badge&logo=settings&logoColor=white)](https://github.com/raufA1)
 
-[![AI Agents](https://img.shields.io/badge/AI_Agents-20%2B-8B5CF6?style=for-the-badge&logo=robot&logoColor=white)](https://github.com/raufA1)
+[![AI Agents](https://img.shields.io/badge/AI_Agents-20%2B-7C3AED?style=for-the-badge&logo=robot&logoColor=white)](https://github.com/raufA1)
 
-[![Enterprise Grade](https://img.shields.io/badge/Enterprise-Grade_Systems-10B981?style=for-the-badge&logo=enterprise&logoColor=white)](https://github.com/raufA1)
+[![Enterprise Grade](https://img.shields.io/badge/Enterprise-Grade_Systems-059669?style=for-the-badge&logo=enterprise&logoColor=white)](https://github.com/raufA1)
 
 </td>
 <td align="center" width="33%">
 
 **🏆 Recognition**
 
-[![Production Ready](https://img.shields.io/badge/Production-Ready_AI-F59E0B?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/raufA1)
+[![Production Ready](https://img.shields.io/badge/Production-Ready_AI-D97706?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/raufA1)
 
-[![Open Source](https://img.shields.io/badge/Open_Source-Contributor-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/raufA1)
+[![Open Source](https://img.shields.io/badge/Open_Source-Contributor-4F46E5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/raufA1)
 
-[![AI Native](https://img.shields.io/badge/AI_Native-Developer-06B6D4?style=for-the-badge&logo=brain&logoColor=white)](https://github.com/raufA1)
+[![AI Native](https://img.shields.io/badge/AI_Native-Developer-0891B2?style=for-the-badge&logo=brain&logoColor=white)](https://github.com/raufA1)
 
 </td>
 </tr>
@@ -303,21 +303,6 @@ graph TD
 
 ---
 
-## 🌍 Languages & Location
-
-<div align="center">
-
-[![Azerbaijani](https://img.shields.io/badge/🇦🇿_Azerbaijani-Native-00D4AA?style=for-the-badge)](https://github.com/raufA1)
-[![Russian](https://img.shields.io/badge/🇷🇺_Russian-Fluent-FF6B6B?style=for-the-badge)](https://github.com/raufA1)
-[![English](https://img.shields.io/badge/🇺🇸_English-Professional-4F46E5?style=for-the-badge)](https://github.com/raufA1)
-
-![Location](https://img.shields.io/badge/📍_Location-Azerbaijan-FFD700?style=for-the-badge&logo=location&logoColor=black)
-![Timezone](https://img.shields.io/badge/⏰_Timezone-GMT%2B4-10B981?style=for-the-badge&logo=clock&logoColor=white)
-
-</div>
-
----
-
 ## 📞 Connect & Collaborate
 
 <div align="center">
@@ -381,9 +366,12 @@ graph TD
 
 </details>
 
-<!-- Footer Wave -->
+---
+
 <div align="center">
 
-![Footer Wave](https://capsule-render.vercel.app/api?type=waving&color=0:1F2937,100:374151&height=120&section=footer&reversal=false&textBg=false)
+**Thank you for visiting my profile! 🚀**
+
+*Building the future with AI, one commit at a time.*
 
 </div>
