@@ -284,20 +284,25 @@ llm-local "run fine-tuned model"
 
 ## 🧠 AI-Native Development Process
 
+**Complete AI-powered development lifecycle with intelligent automation.**
+
 <div align="center">
 
-| 🔄 **Phase** | 🤖 **AI Role** | ⚡ **Impact** |
-|:------------:|:---------------:|:-------------:|
-| 💡 **Ideation** | Problem analysis & solution brainstorming | 3x faster concept validation |
-| 🏗️ **Architecture** | System design & pattern recommendations | 60% reduction in design flaws |
-| 💻 **Development** | Pair programming & code generation | 5x productivity boost |
-| 🧪 **Testing** | Automated test generation & edge cases | 94% bug detection rate |
-| 🚀 **Deployment** | Infrastructure optimization | Zero-downtime releases |
-| 📊 **Monitoring** | Predictive analytics & auto-scaling | Self-healing systems |
+```mermaid
+%%{init: {
+  "theme":"dark",
+  "themeVariables":{"fontSize":"12px","lineColor":"#94a3b8"},
+  "flowchart":{"nodeSpacing":30,"rankSpacing":40}
+}}%%
+graph LR
+    A[💡 Ideation] --> B[🏗️ Architecture]
+    B --> C[💻 Development]
+    C --> D[🧪 Testing]
+    D --> E[🚀 Deploy]
+    E --> F[📊 Monitor]
+```
 
 </div>
-
-> **"Human creativity + AI intelligence = Production-ready magic"** ✨
 
 ---
 
