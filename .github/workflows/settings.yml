@@ -1,0 +1,19 @@
+name: Repository Settings
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/settings.yml'
+
+jobs:
+  apply-settings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Apply repository settings
+        uses: elstudio/actions-settings@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
