@@ -113,31 +113,31 @@ interface AIFirstDeveloper {
 <div align="center">
 
 ### **🤖 AI & Machine Learning**
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Claude-FF9A00?style=flat-square&logo=anthropic&logoColor=white)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-4A90E2?style=flat-square&logo=router&logoColor=white)
-![Multi-Agent](https://img.shields.io/badge/Multi_Agent_Systems-00D4AA?style=flat-square&logo=brain&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM_Integration-4F46E5?style=flat-square&logo=openai&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-8B4513?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude-CD7F32?style=flat-square&logo=anthropic&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-B8860B?style=flat-square&logo=router&logoColor=white)
+![Multi-Agent](https://img.shields.io/badge/Multi_Agent_Systems-D2691E?style=flat-square&logo=brain&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM_Integration-8B4513?style=flat-square&logo=openai&logoColor=white)
 
 ### **💻 Development & Architecture**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![CLI](https://img.shields.io/badge/CLI_Development-000000?style=flat-square&logo=terminal&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-4F46E5?style=flat-square&logo=microservices&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6B6B?style=flat-square&logo=api&logoColor=white)
+![Python](https://img.shields.io/badge/Python-CD7F32?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-B8860B?style=flat-square&logo=fastapi&logoColor=white)
+![CLI](https://img.shields.io/badge/CLI_Development-8B4513?style=flat-square&logo=terminal&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-D2691E?style=flat-square&logo=microservices&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-CD7F32?style=flat-square&logo=api&logoColor=white)
 
 ### **☁️ DevOps & Infrastructure**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-8B4513?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-CD7F32?style=flat-square&logo=kubernetes&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-B8860B?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-D2691E?style=flat-square&logo=grafana&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-8B4513?style=flat-square&logo=postgresql&logoColor=white)
 
 ### **🔐 Enterprise & Security**
-![SSO](https://img.shields.io/badge/SSO_Integration-00D4AA?style=flat-square&logo=auth0&logoColor=white)
-![RBAC](https://img.shields.io/badge/RBAC-4F46E5?style=flat-square&logo=shield&logoColor=white)
-![OAuth](https://img.shields.io/badge/OAuth_2.0-FF6B6B?style=flat-square&logo=oauth&logoColor=white)
-![Security](https://img.shields.io/badge/Security_Auditing-10B981?style=flat-square&logo=security&logoColor=white)
+![SSO](https://img.shields.io/badge/SSO_Integration-CD7F32?style=flat-square&logo=auth0&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC-8B4513?style=flat-square&logo=shield&logoColor=white)
+![OAuth](https://img.shields.io/badge/OAuth_2.0-B8860B?style=flat-square&logo=oauth&logoColor=white)
+![Security](https://img.shields.io/badge/Security_Auditing-D2691E?style=flat-square&logo=security&logoColor=white)
 
 </div>
 
@@ -146,10 +146,10 @@ interface AIFirstDeveloper {
 ## 🌟 Featured Projects
 
 ### 🎯 Smart CLI – Enterprise AI Platform
-[![Smart CLI](https://img.shields.io/badge/Smart_CLI-AI_Platform-00D4AA?style=for-the-badge&logo=terminal&logoColor=white)](https://github.com/raufA1/smart-cli)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/raufA1/smart-cli)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/raufA1/smart-cli)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/raufA1/smart-cli)
+[![Smart CLI](https://img.shields.io/badge/Smart_CLI-AI_Platform-CD7F32?style=for-the-badge&logo=terminal&logoColor=white)](https://github.com/raufA1/smart-cli)
+[![Python](https://img.shields.io/badge/Python-8B4513?style=for-the-badge&logo=python&logoColor=white)](https://github.com/raufA1/smart-cli)
+[![FastAPI](https://img.shields.io/badge/FastAPI-B8860B?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/raufA1/smart-cli)
+[![Docker](https://img.shields.io/badge/Docker-D2691E?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/raufA1/smart-cli)
 
 **AI-first CLI platform with 7 AI modes, multi-agent orchestration, and real-time cost optimization.**
 
@@ -182,9 +182,9 @@ smart --mode orchestrator "coordinate multiple AI agents"
 ---
 
 ### 🎬 ClipFlow – AI Video Automation Pipeline
-[![Clipflow](https://img.shields.io/badge/Clipflow-Video_AI-FF6B6B?style=for-the-badge&logo=video&logoColor=white)](https://github.com/raufA1/clipflow)
-[![AI Processing](https://img.shields.io/badge/AI_Processing-Computer_Vision-4ECDC4?style=for-the-badge&logo=opencv&logoColor=white)](https://github.com/raufA1/clipflow)
-[![Multi Platform](https://img.shields.io/badge/Multi_Platform-YouTube_Instagram_TikTok-FF9F43?style=for-the-badge&logo=social-media&logoColor=white)](https://github.com/raufA1/clipflow)
+[![Clipflow](https://img.shields.io/badge/Clipflow-Video_AI-CD7F32?style=for-the-badge&logo=video&logoColor=white)](https://github.com/raufA1/clipflow)
+[![AI Processing](https://img.shields.io/badge/AI_Processing-Computer_Vision-8B4513?style=for-the-badge&logo=opencv&logoColor=white)](https://github.com/raufA1/clipflow)
+[![Multi Platform](https://img.shields.io/badge/Multi_Platform-YouTube_Instagram_TikTok-B8860B?style=for-the-badge&logo=social-media&logoColor=white)](https://github.com/raufA1/clipflow)
 
 **Complete video automation pipeline: Analyze → Captions → Music → Render → Publish → Analytics.**
 
@@ -230,9 +230,9 @@ graph LR
 ---
 
 ### 🧠 LLM Family Pack – Local AI Ecosystem
-[![LLM Pack](https://img.shields.io/badge/LLM_Pack-AI_Management-6C5CE7?style=for-the-badge&logo=brain&logoColor=white)](https://github.com/raufA1/llm-family-pack)
-[![Local AI](https://img.shields.io/badge/Local_AI-Model_Management-A55EEA?style=for-the-badge&logo=server&logoColor=white)](https://github.com/raufA1/llm-family-pack)
-[![CLI Tools](https://img.shields.io/badge/CLI_Tools-Automation-26DE81?style=for-the-badge&logo=terminal&logoColor=white)](https://github.com/raufA1/llm-family-pack)
+[![LLM Pack](https://img.shields.io/badge/LLM_Pack-AI_Management-CD7F32?style=for-the-badge&logo=brain&logoColor=white)](https://github.com/raufA1/llm-family-pack)
+[![Local AI](https://img.shields.io/badge/Local_AI-Model_Management-8B4513?style=for-the-badge&logo=server&logoColor=white)](https://github.com/raufA1/llm-family-pack)
+[![CLI Tools](https://img.shields.io/badge/CLI_Tools-Automation-B8860B?style=for-the-badge&logo=terminal&logoColor=white)](https://github.com/raufA1/llm-family-pack)
 
 **Manage AI models locally with simple CLI + automation.**
 
@@ -309,7 +309,7 @@ graph TD
 
 | 📧 Email | 💻 GitHub | 📱 Phone | 📄 CV |
 |:--------:|:---------:|:--------:|:-----:|
-| [![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alizadarauf1@gmail.com) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/raufA1) | [![Phone](https://img.shields.io/badge/Call-00D4AA?style=for-the-badge&logo=phone&logoColor=white)](tel:+994507100701) | [![CV](https://img.shields.io/badge/Download-4F46E5?style=for-the-badge&logo=document&logoColor=white)](docs/CV-EN.md) |
+| [![Email](https://img.shields.io/badge/Gmail-CD7F32?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alizadarauf1@gmail.com) | [![GitHub](https://img.shields.io/badge/GitHub-8B4513?style=for-the-badge&logo=github&logoColor=white)](https://github.com/raufA1) | [![Phone](https://img.shields.io/badge/Call-B8860B?style=for-the-badge&logo=phone&logoColor=white)](tel:+994507100701) | [![CV](https://img.shields.io/badge/Download-D2691E?style=for-the-badge&logo=document&logoColor=white)](docs/CV-EN.md) |
 
 </div>
 
