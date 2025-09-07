@@ -31,15 +31,10 @@ jobs:
         pip install requests pyyaml pillow
         pip install --upgrade pip
 
-    # GitHub Stats Widget yaradır
-    - name: Generate GitHub Stats
-      uses: anuraghazra/github-readme-stats@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        show_icons: true
-        theme: radical
-        include_all_commits: true
-        count_private: true
+    # GitHub Stats Widget məlumatlarını hazırla
+    - name: Prepare GitHub Stats
+      run: |
+        echo "GitHub stats will be generated via README widgets"
 
     # Contribution Snake Animation
     - name: Generate Snake Animation
@@ -218,7 +213,6 @@ jobs:
       if: always()
       run: |
         echo "📊 GitHub Stats Update Completed"
-        echo "⏱️  Build Duration: ${{ job.duration }} seconds"
         echo "🔧 Python Version: $(python --version)"
         echo "📅 Timestamp: $(date)"
         echo "🏃 Runner: ${{ runner.os }}"
