@@ -1,0 +1,29 @@
+{
+  "style": "for-the-badge",
+  "badges": [
+    {
+      "name": "LinkedIn",
+      "logo": "linkedin",
+      "logoColor": "white",
+      "color": "0A66C2",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/your-username"
+    },
+    {
+      "name": "Twitter",
+      "logo": "twitter",
+      "logoColor": "white",
+      "color": "1DA1F2",
+      "label": "Twitter",
+      "url": "https://twitter.com/your-username"
+    },
+    {
+      "name": "GitHub",
+      "logo": "github",
+      "logoColor": "white",
+      "color": "181717",
+      "label": "GitHub",
+      "url": "https://github.com/raufA1"
+    }
+  ]
+}

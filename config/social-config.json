@@ -1,0 +1,8 @@
+{
+  "display": ["github", "linkedin", "twitter"],
+  "icons": {
+    "github": "assets/images/icons/github-icon.svg",
+    "linkedin": "assets/images/icons/linkedin-icon.svg",
+    "twitter": "assets/images/icons/twitter-icon.svg"
+  }
+}

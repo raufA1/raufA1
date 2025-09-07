@@ -1,0 +1,427 @@
+{
+  "skills": {
+    "ai_machine_learning": {
+      "category": "AI & Machine Learning",
+      "icon": "🤖",
+      "description": "Cutting-edge AI and ML technologies for intelligent systems",
+      "skills": [
+        {
+          "name": "Multi-Agent Systems",
+          "level": "Expert",
+          "years": 3,
+          "projects": ["Smart CLI", "Clipflow"],
+          "badge": {
+            "label": "Multi Agent Systems",
+            "color": "00D4AA",
+            "logo": "brain"
+          },
+          "description": "Design and implementation of coordinated AI agent architectures"
+        },
+        {
+          "name": "LLM Integration",
+          "level": "Expert", 
+          "years": 3,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "LLM Integration",
+            "color": "4F46E5",
+            "logo": "openai"
+          },
+          "description": "Seamless integration of large language models"
+        },
+        {
+          "name": "Computer Vision",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Clipflow"],
+          "badge": {
+            "label": "Computer Vision",
+            "color": "FF6B6B",
+            "logo": "opencv"
+          },
+          "description": "Object detection, image processing, and video analysis"
+        },
+        {
+          "name": "OpenAI GPT",
+          "level": "Expert",
+          "years": 3,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "OpenAI",
+            "color": "412991",
+            "logo": "openai"
+          },
+          "description": "Advanced GPT model integration and optimization"
+        },
+        {
+          "name": "Anthropic Claude",
+          "level": "Expert",
+          "years": 2,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "Claude",
+            "color": "FF9A00",
+            "logo": "anthropic"
+          },
+          "description": "Claude AI model implementation and fine-tuning"
+        },
+        {
+          "name": "OpenRouter API",
+          "level": "Expert",
+          "years": 2,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "OpenRouter",
+            "color": "4A90E2",
+            "logo": "router"
+          },
+          "description": "Multi-model AI routing and optimization"
+        },
+        {
+          "name": "YOLOv8",
+          "level": "Advanced",
+          "years": 1,
+          "projects": ["Clipflow"],
+          "badge": {
+            "label": "YOLOv8",
+            "color": "00FF7F",
+            "logo": "python"
+          },
+          "description": "Real-time object detection and tracking"
+        },
+        {
+          "name": "Natural Language Processing",
+          "level": "Advanced",
+          "years": 3,
+          "projects": ["Smart CLI", "Clipflow"],
+          "badge": {
+            "label": "NLP",
+            "color": "9B59B6",
+            "logo": "language"
+          },
+          "description": "Text analysis, sentiment analysis, and language understanding"
+        }
+      ]
+    },
+    "development_architecture": {
+      "category": "Development & Architecture", 
+      "icon": "💻",
+      "description": "Full-stack development and system architecture expertise",
+      "skills": [
+        {
+          "name": "Python",
+          "level": "Expert",
+          "years": 4,
+          "projects": ["Smart CLI", "Clipflow", "LLM Family Pack"],
+          "badge": {
+            "label": "Python",
+            "color": "3776AB",
+            "logo": "python"
+          },
+          "description": "Advanced Python development for AI and backend systems"
+        },
+        {
+          "name": "FastAPI",
+          "level": "Expert",
+          "years": 3,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "FastAPI",
+            "color": "009688",
+            "logo": "fastapi"
+          },
+          "description": "High-performance API development and documentation"
+        },
+        {
+          "name": "CLI Development",
+          "level": "Expert",
+          "years": 3,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "CLI Development",
+            "color": "000000",
+            "logo": "terminal"
+          },
+          "description": "Command-line interface design and implementation"
+        },
+        {
+          "name": "Microservices Architecture",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "Microservices",
+            "color": "4F46E5",
+            "logo": "microservices"
+          },
+          "description": "Distributed system design and service orchestration"
+        },
+        {
+          "name": "REST API Design",
+          "level": "Expert",
+          "years": 3,
+          "projects": ["Smart CLI", "Clipflow"],
+          "badge": {
+            "label": "REST API",
+            "color": "FF6B6B",
+            "logo": "api"
+          },
+          "description": "RESTful service design and implementation"
+        },
+        {
+          "name": "SQLAlchemy",
+          "level": "Advanced",
+          "years": 3,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "SQLAlchemy",
+            "color": "D71F00",
+            "logo": "python"
+          },
+          "description": "ORM design and database optimization"
+        },
+        {
+          "name": "AsyncIO",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI", "Clipflow"],
+          "badge": {
+            "label": "AsyncIO",
+            "color": "FFD43B",
+            "logo": "python"
+          },
+          "description": "Asynchronous programming and concurrent execution"
+        },
+        {
+          "name": "Design Patterns",
+          "level": "Advanced",
+          "years": 4,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "Design Patterns",
+            "color": "8E44AD",
+            "logo": "code"
+          },
+          "description": "Software design patterns and architectural principles"
+        }
+      ]
+    },
+    "devops_infrastructure": {
+      "category": "DevOps & Infrastructure",
+      "icon": "☁️", 
+      "description": "Cloud infrastructure and deployment automation",
+      "skills": [
+        {
+          "name": "Docker",
+          "level": "Expert",
+          "years": 3,
+          "projects": ["Smart CLI", "Clipflow", "LLM Family Pack"],
+          "badge": {
+            "label": "Docker",
+            "color": "2496ED",
+            "logo": "docker"
+          },
+          "description": "Containerization and multi-stage builds"
+        },
+        {
+          "name": "Kubernetes",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "Kubernetes",
+            "color": "326CE5",
+            "logo": "kubernetes"
+          },
+          "description": "Container orchestration and scaling"
+        },
+        {
+          "name": "Prometheus",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "Prometheus",
+            "color": "E6522C",
+            "logo": "prometheus"
+          },
+          "description": "Metrics collection and monitoring"
+        },
+        {
+          "name": "Grafana",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "Grafana",
+            "color": "F46800",
+            "logo": "grafana"
+          },
+          "description": "Data visualization and dashboards"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Advanced",
+          "years": 3,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "PostgreSQL",
+            "color": "336791",
+            "logo": "postgresql"
+          },
+          "description": "Database design and optimization"
+        },
+        {
+          "name": "Redis",
+          "level": "Advanced",
+          "years": 3,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "Redis",
+            "color": "DC382D",
+            "logo": "redis"
+          },
+          "description": "Caching and session management"
+        },
+        {
+          "name": "GitHub Actions",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI", "Clipflow"],
+          "badge": {
+            "label": "GitHub Actions",
+            "color": "2088FF",
+            "logo": "github-actions"
+          },
+          "description": "CI/CD pipeline automation"
+        },
+        {
+          "name": "Linux Administration",
+          "level": "Advanced",
+          "years": 4,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "Linux",
+            "color": "FCC624",
+            "logo": "linux"
+          },
+          "description": "Server administration and shell scripting"
+        }
+      ]
+    },
+    "enterprise_security": {
+      "category": "Enterprise & Security",
+      "icon": "🔐",
+      "description": "Enterprise-grade security and access management",
+      "skills": [
+        {
+          "name": "SSO Integration",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "SSO Integration",
+            "color": "00D4AA",
+            "logo": "auth0"
+          },
+          "description": "Single sign-on implementation and management"
+        },
+        {
+          "name": "RBAC (Role-Based Access Control)",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "RBAC",
+            "color": "4F46E5",
+            "logo": "shield"
+          },
+          "description": "Permission and role management systems"
+        },
+        {
+          "name": "OAuth 2.0",
+          "level": "Advanced",
+          "years": 3,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "OAuth 2.0",
+            "color": "FF6B6B",
+            "logo": "oauth"
+          },
+          "description": "Authentication and authorization protocols"
+        },
+        {
+          "name": "Security Auditing",
+          "level": "Intermediate",
+          "years": 2,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "Security Auditing",
+            "color": "10B981",
+            "logo": "security"
+          },
+          "description": "Security assessment and vulnerability analysis"
+        },
+        {
+          "name": "Encryption & Cryptography",
+          "level": "Intermediate",
+          "years": 2,
+          "projects": ["Smart CLI", "LLM Family Pack"],
+          "badge": {
+            "label": "Encryption",
+            "color": "8B5CF6",
+            "logo": "lock"
+          },
+          "description": "Data encryption and cryptographic protocols"
+        },
+        {
+          "name": "Compliance Standards",
+          "level": "Intermediate",
+          "years": 1,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "Compliance",
+            "color": "059669",
+            "logo": "checklist"
+          },
+          "description": "GDPR, SOC2, and security compliance"
+        },
+        {
+          "name": "Multi-Factor Authentication",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI"],
+          "badge": {
+            "label": "MFA",
+            "color": "F59E0B",
+            "logo": "key"
+          },
+          "description": "Two-factor and multi-factor authentication"
+        }
+      ]
+    },
+    "frontend_tools": {
+      "category": "Frontend & Tools",
+      "icon": "🌐",
+      "description": "Modern frontend technologies and development tools",
+      "skills": [
+        {
+          "name": "TypeScript",
+          "level": "Advanced",
+          "years": 2,
+          "projects": ["Smart CLI Dashboard"],
+          "badge": {
+            "label": "TypeScript",
+            "color": "3178C6",
+            "logo": "typescript"
+          },
+          "description": "Type-safe JavaScript development"
+        },
+        {
+          "name": "React",
+          "level": "Intermediate",
+          "years": 2,
+          "projects": ["Smart CLI Dashboard"],
+          "badge": {
+            "label": "React",
+            "color": "

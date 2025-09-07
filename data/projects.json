@@ -1,0 +1,319 @@
+{
+  "projects": [
+    {
+      "id": "smart-cli",
+      "name": "Smart CLI",
+      "subtitle": "Enterprise AI Platform",
+      "description": "AI-first CLI platform with 7 AI modes, multi-agent orchestration, and real-time cost optimization.",
+      "longDescription": "A revolutionary command-line interface that brings enterprise-grade AI capabilities to developers. Features intelligent request routing, multi-agent coordination, and comprehensive cost management.",
+      "repository": "https://github.com/raufA1/smart-cli",
+      "demo": "https://smart-cli-demo.herokuapp.com",
+      "documentation": "https://smart-cli.readthedocs.io",
+      "status": "active",
+      "featured": true,
+      "category": "AI Platform",
+      "badges": [
+        {
+          "label": "Smart CLI",
+          "message": "AI Platform",
+          "color": "00D4AA",
+          "logo": "terminal",
+          "style": "for-the-badge"
+        },
+        {
+          "label": "Python",
+          "message": "",
+          "color": "3776AB",
+          "logo": "python",
+          "style": "for-the-badge"
+        },
+        {
+          "label": "FastAPI",
+          "message": "",
+          "color": "009688",
+          "logo": "fastapi",
+          "style": "for-the-badge"
+        },
+        {
+          "label": "Docker",
+          "message": "",
+          "color": "2496ED",
+          "logo": "docker",
+          "style": "for-the-badge"
+        }
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "OpenAI API",
+        "Anthropic Claude",
+        "OpenRouter"
+      ],
+      "features": [
+        {
+          "title": "7 Specialized AI Modes",
+          "description": "Smart, Code, Analysis, Architect, Learning, Fast, Orchestrator modes with intelligent auto-detection",
+          "icon": "🤖"
+        },
+        {
+          "title": "20+ AI Agents",
+          "description": "Intelligent task routing and coordination system with specialized agents",
+          "icon": "🎯"
+        },
+        {
+          "title": "Enterprise Security",
+          "description": "SSO, RBAC, MFA, comprehensive audit logging for production environments",
+          "icon": "🔐"
+        },
+        {
+          "title": "Cost Intelligence",
+          "description": "Real-time budget management and model optimization recommendations",
+          "icon": "💰"
+        },
+        {
+          "title": "Production Ready",
+          "description": "Docker orchestration, Prometheus monitoring, Grafana dashboards",
+          "icon": "🐳"
+        },
+        {
+          "title": "94%+ Accuracy",
+          "description": "Advanced request classification and intelligent routing system",
+          "icon": "📊"
+        }
+      ],
+      "metrics": {
+        "accuracy": "94%+",
+        "workloadReduction": "60%+",
+        "speedIncrease": "3x",
+        "aiModes": 7,
+        "aiAgents": "20+",
+        "enterprises": "5+"
+      },
+      "commands": [
+        "smart --mode architect \"design a microservices architecture\"",
+        "smart --mode code \"refactor this Python class\"",
+        "smart --mode orchestrator \"coordinate multiple AI agents\""
+      ],
+      "achievements": [
+        "60%+ workload reduction achieved through intelligent automation",
+        "3x speed increase in development cycles using AI-assisted workflows",
+        "94%+ accuracy in AI request classification and routing systems",
+        "Enterprise-grade security with SSO, RBAC, and comprehensive auditing",
+        "Production deployment with 99.9% uptime across multiple environments"
+      ]
+    },
+    {
+      "id": "clipflow",
+      "name": "Clipflow",
+      "subtitle": "AI Video Automation Pipeline",
+      "description": "Complete video automation pipeline: Analyze → Captions → Music → Render → Publish → Analytics.",
+      "longDescription": "An end-to-end AI-powered video processing system that automates content creation from analysis to multi-platform publishing with intelligent optimization.",
+      "repository": "https://github.com/raufA1/clipflow",
+      "demo": "https://clipflow-demo.herokuapp.com",
+      "status": "active",
+      "featured": true,
+      "category": "Video AI",
+      "badges": [
+        {
+          "label": "Clipflow",
+          "message": "Video AI",
+          "color": "FF6B6B",
+          "logo": "video",
+          "style": "for-the-badge"
+        },
+        {
+          "label": "AI Processing",
+          "message": "Computer Vision",
+          "color": "4ECDC4",
+          "logo": "opencv",
+          "style": "for-the-badge"
+        },
+        {
+          "label": "Multi Platform",
+          "message": "YouTube Instagram TikTok",
+          "color": "FF9F43",
+          "logo": "social-media",
+          "style": "for-the-badge"
+        }
+      ],
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "YOLOv8",
+        "FFmpeg",
+        "TensorFlow",
+        "Natural Language Processing",
+        "YouTube API",
+        "Instagram API",
+        "TikTok API",
+        "Google Cloud Vision",
+        "AWS Transcribe"
+      ],
+      "features": [
+        {
+          "title": "Complete Automation",
+          "description": "End-to-end video processing from analysis to multi-platform publishing",
+          "icon": "📹"
+        },
+        {
+          "title": "Multi-language Captions",
+          "description": "AI-powered captions in Azerbaijani, English, Russian with 95%+ accuracy",
+          "icon": "🌍"
+        },
+        {
+          "title": "Smart Processing",
+          "description": "YOLOv8 integration for intelligent highlighting and object detection",
+          "icon": "🎯"
+        },
+        {
+          "title": "Intelligent Music",
+          "description": "Automatic music selection with copyright protection algorithms",
+          "icon": "🎵"
+        },
+        {
+          "title": "Analytics Integration",
+          "description": "Performance tracking and optimal publishing time recommendations",
+          "icon": "📊"
+        },
+        {
+          "title": "Production Scale",
+          "description": "Handles large-scale video processing workflows efficiently",
+          "icon": "🚀"
+        }
+      ],
+      "workflow": [
+        {
+          "step": 1,
+          "name": "Upload",
+          "description": "Video file upload and initial validation",
+          "icon": "📹"
+        },
+        {
+          "step": 2,
+          "name": "AI Analysis",
+          "description": "Content understanding and scene detection",
+          "icon": "🧠"
+        },
+        {
+          "step": 3,
+          "name": "Smart Captions",
+          "description": "Multi-language subtitle generation",
+          "icon": "📝"
+        },
+        {
+          "step": 4,
+          "name": "Music Selection",
+          "description": "Copyright-safe background music matching",
+          "icon": "🎵"
+        },
+        {
+          "step": 5,
+          "name": "AI Render",
+          "description": "Automated editing with intelligent cuts",
+          "icon": "🎬"
+        },
+        {
+          "step": 6,
+          "name": "Analytics",
+          "description": "Performance tracking and insights",
+          "icon": "📊"
+        }
+      ],
+      "metrics": {
+        "videosProcessed": "1000+",
+        "languages": 3,
+        "platforms": 3,
+        "accuracy": "95%+",
+        "processingSpeed": "10x faster",
+        "costReduction": "70%"
+      },
+      "platforms": [
+        {
+          "name": "YouTube",
+          "features": ["Auto-upload", "SEO optimization", "Thumbnail generation"],
+          "api": "YouTube Data API v3"
+        },
+        {
+          "name": "Instagram",
+          "features": ["Stories", "Reels", "IGTV", "Auto-posting"],
+          "api": "Instagram Basic Display API"
+        },
+        {
+          "name": "TikTok",
+          "features": ["Short-form optimization", "Trending hashtags", "Auto-schedule"],
+          "api": "TikTok for Developers"
+        }
+      ]
+    },
+    {
+      "id": "llm-family-pack",
+      "name": "LLM Family Pack",
+      "subtitle": "Local AI Management",
+      "description": "Manage AI models locally with simple CLI + automation.",
+      "longDescription": "A comprehensive local AI ecosystem that provides unified management for multiple language models with simple CLI commands and advanced automation capabilities.",
+      "repository": "https://github.com/raufA1/llm-family-pack",
+      "status": "active",
+      "featured": true,
+      "category": "AI Management",
+      "badges": [
+        {
+          "label": "LLM Pack",
+          "message": "AI Management",
+          "color": "6C5CE7",
+          "logo": "brain",
+          "style": "for-the-badge"
+        },
+        {
+          "label": "Local AI",
+          "message": "Model Management",
+          "color": "A55EEA",
+          "logo": "server",
+          "style": "for-the-badge"
+        },
+        {
+          "label": "CLI Tools",
+          "message": "Automation",
+          "color": "26DE81",
+          "logo": "terminal",
+          "style": "for-the-badge"
+        }
+      ],
+      "technologies": [
+        "Python",
+        "Docker",
+        "Kubernetes",
+        "LiteLLM",
+        "OpenAI API",
+        "Anthropic Claude",
+        "Google Gemini",
+        "Ollama",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "Redis",
+        "PostgreSQL"
+      ],
+      "features": [
+        {
+          "title": "Multi-Model Support",
+          "description": "Unified interface for Claude, GPT-4, Gemini, and local models",
+          "icon": "🔄"
+        },
+        {
+          "title": "Local Deployment",
+          "description": "Complete local LLM hosting and management infrastructure",
+          "icon": "🏠"
+        },
+        {
+          "title": "API Standardization",
+          "description": "Consistent interface across different AI providers",
+          "icon": "🔗"
+        },
+        {
+          "title": "Intelligent

@@ -1,0 +1,236 @@
+name: Update GitHub Profile Stats
+
+# Avtomatik statistika yeniləmə - hər gün saat 00:00 və push zamanı
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Hər gün gecə yarı
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:  # Manual işə salınma
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    name: Update Profile Statistics
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        pip install requests pyyaml pillow
+        pip install --upgrade pip
+
+    # GitHub Stats Widget yaradır
+    - name: Generate GitHub Stats
+      uses: anuraghazra/github-readme-stats@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        show_icons: true
+        theme: radical
+        include_all_commits: true
+        count_private: true
+
+    # Contribution Snake Animation
+    - name: Generate Snake Animation
+      uses: Platane/snk/svg-only@v3
+      with:
+        github_user_name: raufA1
+        outputs: |
+          assets/images/github-contribution-grid-snake.svg
+          assets/images/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+    # Dinamik Badge-lər yaradır
+    - name: Update Dynamic Badges
+      run: |
+        python - << 'EOF'
+        import requests
+        import json
+        import os
+        from datetime import datetime
+
+        # GitHub API məlumatlarını al
+        headers = {'Authorization': f'token {os.environ["GITHUB_TOKEN"]}'}
+        user_response = requests.get('https://api.github.com/user', headers=headers)
+        repos_response = requests.get('https://api.github.com/user/repos?per_page=100', headers=headers)
+        
+        if user_response.status_code == 200 and repos_response.status_code == 200:
+            user_data = user_response.json()
+            repos_data = repos_response.json()
+            
+            # Statistikaları hesabla
+            total_stars = sum(repo['stargazers_count'] for repo in repos_data)
+            total_forks = sum(repo['forks_count'] for repo in repos_data)
+            total_repos = len([repo for repo in repos_data if not repo['fork']])
+            
+            # Dinamik Badge Data
+            badge_data = {
+                'updated': datetime.now().isoformat(),
+                'stats': {
+                    'repositories': total_repos,
+                    'stars': total_stars,
+                    'forks': total_forks,
+                    'followers': user_data.get('followers', 0),
+                    'following': user_data.get('following', 0)
+                }
+            }
+            
+            # JSON faylını yenilə
+            os.makedirs('data', exist_ok=True)
+            with open('data/github-stats.json', 'w') as f:
+                json.dump(badge_data, f, indent=2)
+            
+            print(f"Stats updated: {total_repos} repos, {total_stars} stars, {total_forks} forks")
+        else:
+            print("GitHub API request failed")
+        EOF
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # Language Stats yaradır
+    - name: Update Language Statistics
+      run: |
+        python - << 'EOF'
+        import requests
+        import json
+        import os
+
+        headers = {'Authorization': f'token {os.environ["GITHUB_TOKEN"]}'}
+        repos_response = requests.get('https://api.github.com/user/repos?per_page=100', headers=headers)
+        
+        if repos_response.status_code == 200:
+            repos_data = repos_response.json()
+            language_stats = {}
+            
+            for repo in repos_data:
+                if not repo['fork'] and repo['language']:
+                    lang = repo['language']
+                    language_stats[lang] = language_stats.get(lang, 0) + 1
+            
+            # Top 10 dili al
+            sorted_langs = sorted(language_stats.items(), key=lambda x: x[1], reverse=True)[:10]
+            
+            with open('data/languages.json', 'w') as f:
+                json.dump({
+                    'updated': requests.get('https://api.github.com/zen').text[:20],
+                    'languages': dict(sorted_langs)
+                }, f, indent=2)
+            
+            print(f"Language stats updated: {len(sorted_langs)} languages")
+        EOF
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # WakaTime Stats (əgər konfiqurasiya edilibsə)
+    - name: Update WakaTime Stats
+      if: ${{ secrets.WAKATIME_API_KEY }}
+      run: |
+        python - << 'EOF'
+        import requests
+        import json
+        import os
+
+        api_key = os.environ.get('WAKATIME_API_KEY')
+        if api_key:
+            headers = {'Authorization': f'Bearer {api_key}'}
+            response = requests.get('https://wakatime.com/api/v1/users/current/stats/last_7_days', headers=headers)
+            
+            if response.status_code == 200:
+                wakatime_data = response.json()
+                
+                with open('data/wakatime-stats.json', 'w') as f:
+                    json.dump(wakatime_data, f, indent=2)
+                
+                print("WakaTime stats updated successfully")
+            else:
+                print("WakaTime API request failed")
+        EOF
+      env:
+        WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+    # Social Preview şəkillərini yenilə
+    - name: Update Social Preview Images
+      run: |
+        python - << 'EOF'
+        import json
+        from datetime import datetime
+
+        # Preview metadata yenilə
+        preview_data = {
+            'updated': datetime.now().isoformat(),
+            'dark_theme': 'assets/images/social_preview_dark.png',
+            'light_theme': 'assets/images/social_preview_light.png',
+            'banner_dark': 'assets/images/banner_dark.png',
+            'banner_light': 'assets/images/banner_light.png'
+        }
+        
+        with open('data/preview-meta.json', 'w') as f:
+            json.dump(preview_data, f, indent=2)
+        
+        print("Social preview metadata updated")
+        EOF
+
+    # Cache və build artifaktlarını təmizlə
+    - name: Cleanup Build Artifacts
+      run: |
+        rm -rf __pycache__
+        rm -rf .pytest_cache
+        find . -name "*.pyc" -delete
+        find . -name "*.pyo" -delete
+
+    # Dəyişiklikləri commit et
+    - name: Commit Updated Stats
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/ assets/images/
+        
+        # Yalnız dəyişiklik varsa commit et
+        if ! git diff --staged --quiet; then
+          git commit -m "📊 Auto-update GitHub profile stats
+          
+          - Updated repository statistics
+          - Refreshed language data
+          - Generated new contribution graphs
+          - Updated social preview metadata
+          
+          🤖 Generated by GitHub Actions
+          🕒 $(date +'%Y-%m-%d %H:%M:%S')"
+          
+          git push
+          echo "Stats updated and pushed successfully"
+        else
+          echo "No changes detected - skipping commit"
+        fi
+
+    # Build performans metriklərini göndər
+    - name: Report Performance Metrics
+      if: always()
+      run: |
+        echo "📊 GitHub Stats Update Completed"
+        echo "⏱️  Build Duration: ${{ job.duration }} seconds"
+        echo "🔧 Python Version: $(python --version)"
+        echo "📅 Timestamp: $(date)"
+        echo "🏃 Runner: ${{ runner.os }}"
+
+# Error handling və notification
+  notify-on-failure:
+    needs: update-stats
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+    - name: Notify on Failure
+      run: |
+        echo "❌ GitHub Profile Stats update failed!"
+        echo "Please check the logs for more details."
+        # İstəyə görə Discord/Slack notification əlavə edilə bilər

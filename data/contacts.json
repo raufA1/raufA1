@@ -1,0 +1,325 @@
+{
+  "contact_information": {
+    "personal": {
+      "full_name": "Rauf Rafiq Əlizadə",
+      "display_name": "Rauf Alizada",
+      "title": "AI-Native Engineer & Multi-Agent Architect",
+      "tagline": "Human creativity + AI intelligence = Magic",
+      "birth_date": "1995-03-28",
+      "nationality": "Azerbaijani",
+      "location": {
+        "country": "Azerbaijan",
+        "country_code": "AZ",
+        "flag": "🇦🇿",
+        "timezone": "Asia/Baku",
+        "utc_offset": "+04:00",
+        "coordinates": {
+          "latitude": 40.4093,
+          "longitude": 49.8671
+        }
+      }
+    },
+    "professional": {
+      "current_role": "Senior AI Engineer & Multi-Agent Architect",
+      "work_type": "Freelance / Independent Consultant",
+      "specialization": "AI-Native Development",
+      "experience_years": 3,
+      "work_status": "Available for projects",
+      "preferred_work": ["Remote", "Hybrid", "Consulting", "Full-time"],
+      "expertise_areas": [
+        "Multi-Agent AI Systems",
+        "Enterprise AI Platform Development",
+        "AI-Powered Automation",
+        "Local AI Model Management",
+        "Video AI Processing"
+      ]
+    },
+    "primary_contacts": {
+      "email": {
+        "address": "alizadarauf1@gmail.com",
+        "type": "primary",
+        "verified": true,
+        "public": true,
+        "preferred_for": ["Business inquiries", "Collaboration", "Technical discussions"],
+        "badge": {
+          "label": "Email",
+          "message": "alizadarauf1@gmail.com",
+          "color": "EA4335",
+          "logo": "gmail"
+        },
+        "availability": "24/7 (responds within 12 hours)"
+      },
+      "phone": {
+        "number": "+994507100701",
+        "country_code": "+994",
+        "formatted": "+994 50 710 07 01",
+        "type": "mobile",
+        "verified": true,
+        "public": true,
+        "preferred_for": ["Urgent matters", "Voice calls", "WhatsApp"],
+        "badge": {
+          "label": "Phone",
+          "message": "+994 50 710 07 01",
+          "color": "00D4AA",
+          "logo": "phone"
+        },
+        "availability": "9:00-22:00 (UTC+4)",
+        "services": ["Voice calls", "SMS", "WhatsApp", "Telegram"]
+      },
+      "github": {
+        "username": "raufA1",
+        "url": "https://github.com/raufA1",
+        "verified": true,
+        "public": true,
+        "preferred_for": ["Code collaboration", "Technical projects", "Open source"],
+        "badge": {
+          "label": "GitHub",
+          "message": "raufA1",
+          "color": "181717",
+          "logo": "github"
+        },
+        "activity_level": "Daily active",
+        "repositories": "10+",
+        "contributions": "1000+"
+      }
+    },
+    "secondary_contacts": {
+      "linkedin": {
+        "username": "rauf-alizada",
+        "url": "https://linkedin.com/in/rauf-alizada",
+        "verified": true,
+        "public": true,
+        "preferred_for": ["Professional networking", "Career opportunities", "Business connections"],
+        "badge": {
+          "label": "LinkedIn",
+          "message": "Professional",
+          "color": "0077B5",
+          "logo": "linkedin"
+        },
+        "activity_level": "Weekly active"
+      },
+      "telegram": {
+        "username": "@rauf_ai",
+        "verified": false,
+        "public": true,
+        "preferred_for": ["Quick messages", "Technical support", "Community discussions"],
+        "badge": {
+          "label": "Telegram",
+          "message": "@rauf_ai",
+          "color": "26A5E4",
+          "logo": "telegram"
+        },
+        "availability": "Real-time"
+      },
+      "discord": {
+        "username": "rauf_ai#1234",
+        "verified": false,
+        "public": false,
+        "preferred_for": ["Developer communities", "Technical discussions", "Gaming"],
+        "badge": {
+          "label": "Discord",
+          "message": "rauf_ai",
+          "color": "5865F2",
+          "logo": "discord"
+        },
+        "availability": "Evenings (UTC+4)"
+      }
+    },
+    "professional_services": {
+      "consultation": {
+        "availability": "Available",
+        "hourly_rate": "$50-100/hour",
+        "specialties": [
+          "AI Strategy Development",
+          "Multi-Agent System Architecture",
+          "AI Integration Planning",
+          "Performance Optimization",
+          "Security Implementation"
+        ],
+        "languages": ["English", "Russian", "Azerbaijani"],
+        "formats": ["Video call", "In-person (Baku)", "Written analysis"],
+        "booking": "Email for scheduling"
+      },
+      "development": {
+        "availability": "Selective projects",
+        "project_types": [
+          "AI Platform Development",
+          "Multi-Agent System Implementation",
+          "Video Processing Automation",
+          "Enterprise AI Integration",
+          "Local AI Deployment"
+        ],
+        "minimum_engagement": "2 weeks",
+        "preferred_stack": ["Python", "FastAPI", "Docker", "AI/ML"],
+        "team_size": "1-5 developers",
+        "management_style": "Agile/Scrum"
+      },
+      "training": {
+        "availability": "Limited availability",
+        "topics": [
+          "AI-Native Development",
+          "Multi-Agent Architecture",
+          "Enterprise AI Security",
+          "Local AI Deployment",
+          "Performance Optimization"
+        ],
+        "formats": ["Workshop", "Online course", "One-on-one mentoring"],
+        "duration": "1-5 days",
+        "group_size": "5-20 participants",
+        "materials": "Provided in multiple languages"
+      }
+    },
+    "collaboration_preferences": {
+      "project_types": [
+        "AI Platform Development",
+        "Enterprise AI Integration",
+        "Multi-Agent System Design",
+        "Video AI Processing",
+        "Local AI Deployment",
+        "Open Source Contributions"
+      ],
+      "company_size": ["Startup", "Scale-up", "Enterprise", "Individual"],
+      "industries": [
+        "Technology",
+        "Media & Entertainment",
+        "Financial Services",
+        "Healthcare",
+        "Education",
+        "E-commerce"
+      ],
+      "work_arrangements": [
+        "Remote (preferred)",
+        "Hybrid",
+        "Short-term on-site (Baku)",
+        "Consulting"
+      ],
+      "communication_style": [
+        "Direct and technical",
+        "Data-driven decisions",
+        "Collaborative problem-solving",
+        "Regular progress updates",
+        "Transparent communication"
+      ]
+    },
+    "response_times": {
+      "email": {
+        "business_hours": "Within 4 hours",
+        "after_hours": "Within 12 hours",
+        "weekends": "Within 24 hours",
+        "urgent_matters": "Within 1 hour (if marked urgent)"
+      },
+      "phone": {
+        "business_hours": "Immediate",
+        "after_hours": "Within 2 hours",
+        "weekends": "By appointment",
+        "urgent_matters": "Immediate"
+      },
+      "github": {
+        "issues": "Within 24 hours",
+        "pull_requests": "Within 48 hours",
+        "discussions": "Within 72 hours",
+        "urgent_bugs": "Within 6 hours"
+      }
+    },
+    "languages": {
+      "azerbaijani": {
+        "name": "Azerbaijani",
+        "native_name": "Azərbaycan dili",
+        "level": "Native",
+        "proficiency": 100,
+        "flag": "🇦🇿",
+        "iso_code": "az",
+        "badge": {
+          "label": "🇦🇿 Azerbaijani",
+          "message": "Native",
+          "color": "00D4AA"
+        },
+        "use_cases": ["Local business", "Cultural context", "Regional markets"]
+      },
+      "russian": {
+        "name": "Russian",
+        "native_name": "Русский язык",
+        "level": "Fluent",
+        "proficiency": 90,
+        "flag": "🇷🇺",
+        "iso_code": "ru",
+        "badge": {
+          "label": "🇷🇺 Russian",
+          "message": "Fluent",
+          "color": "FF6B6B"
+        },
+        "use_cases": ["CIS region business", "Technical documentation", "Team communication"]
+      },
+      "english": {
+        "name": "English",
+        "native_name": "English",
+        "level": "Professional",
+        "proficiency": 85,
+        "flag": "🇺🇸",
+        "iso_code": "en",
+        "badge": {
+          "label": "🇺🇸 English",
+          "message": "Professional",
+          "color": "4F46E5"
+        },
+        "use_cases": ["International business", "Technical writing", "Global collaboration"]
+      }
+    },
+    "availability": {
+      "current_status": "Available for new projects",
+      "timezone": "Asia/Baku (UTC+4)",
+      "working_hours": {
+        "monday_friday": "09:00-18:00",
+        "saturday": "10:00-16:00",
+        "sunday": "By appointment",
+        "flexible": true
+      },
+      "vacation_periods": [
+        "New Year holidays (Jan 1-3)",
+        "Novruz holidays (Mar 20-24)",
+        "Summer vacation (2 weeks in August)"
+      ],
+      "emergency_contact": "+994507100701 (WhatsApp/Telegram)"
+    },
+    "legal_information": {
+      "business_structure": "Individual Entrepreneur",
+      "tax_id": "Available upon request",
+      "vat_registered": false,
+      "insurance": "Professional liability insurance",
+      "contracts": "Standard service agreements available",
+      "invoicing": "Monthly or project-based",
+      "payment_methods": ["Bank transfer", "PayPal", "Cryptocurrency (BTC, ETH)"],
+      "currency_preference": ["USD", "EUR", "AZN"]
+    }
+  },
+  "contact_form_fields": {
+    "required": ["name", "email", "subject", "message"],
+    "optional": ["company", "phone", "project_budget", "timeline"],
+    "subject_options": [
+      "AI Consultation Request",
+      "Development Project Inquiry",
+      "Training & Workshop Request",
+      "Technical Support",
+      "Partnership Proposal",
+      "Open Source Contribution",
+      "Media & Interview Request",
+      "Other"
+    ],
+    "budget_ranges": [
+      "Under $5,000",
+      "$5,000 - $15,000",
+      "$15,000 - $50,000",
+      "$50,000 - $100,000",
+      "Over $100,000",
+      "Prefer to discuss"
+    ],
+    "timeline_options": [
+      "ASAP (Rush job)",
+      "Within 1 month",
+      "1-3 months",
+      "3-6 months",
+      "6+ months",
+      "Flexible timeline"
+    ]
+  }
+}
